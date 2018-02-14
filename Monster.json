@@ -1,0 +1,243 @@
+{
+  "startingRoom": "Iron Man's House",
+  "endingRoom": "Wakanda",
+  "rooms": [
+      {
+          "name" : "Training Round",
+          "description" : "You have entered Training mode - show off your skills",
+          "items" : [ 
+              {
+                "name" : "BlackPantherSuit",
+                "damage" : "17.45"
+              },
+              
+              {
+                "name" : "Knife",
+                "damage" : "12.0"
+              }
+            ],
+            
+          "directions" : [
+            {
+              "directionName" : "North",
+              "room" : "Iron Man's House"
+            }
+            ],
+            
+          "monstersInRoom" : [ "Terrorists"]
+      },
+      {
+          "name" : "Iron Man's House",
+          "description" : "You have begun the game! This is Tony Stark's House, in Malibu, California.",
+          "items" : [ 
+              {
+                "name" : "Repulsors",
+                "damage" : "22.10"
+              },
+              
+              {
+                "name" : "Mjolnir",
+                "damage" : "12.0"
+              }
+            ],
+            
+          "directions" : [
+            {
+              "directionName" : "East",
+              "room" : "Stark Industries"
+            },
+            {
+              "directionName" : "South",
+              "room" : "Training Round"
+            }
+            ],
+            
+          "monstersInRoom" : [ "Chitauri", "Loki"]
+      },
+      
+      {
+        "name" : "Stark Industries",
+          "description" : "You have reached Stark Industries. Fight off the bad guys.
+" : [ 
+              {
+                "name" : "Stapler",
+                "damage" : "0.60"
+              }
+            ],
+            
+          "directions" : [
+            {
+              "directionName" : "North",
+              "room" : "Stark Expo"
+            },
+            {
+              "directionName" : "West",
+              "room" : "Iron Man's House"
+            }
+            ],
+            
+          "monstersInRoom" : [ "Robots", "Whiplash"]
+      },
+      
+      {
+        "name" : "Stark Expo",
+        "description" : "There are robots at the Stark Expo. Battle!",
+          "items" : [
+              {
+                "name" : "Armor",
+                "damage" : "31.90"
+              }
+            ],
+            
+          "directions" : [
+            {
+              "directionName" : "West",
+              "room" : "SHIELD Hellicarrier"
+            },
+            {
+              "directionName" : "East",
+              "room" : "Manhattan"
+            },
+            {
+              "directionName" : "South",
+              "room" : "Stark Industries"
+            }
+            ],
+            
+          "monstersInRoom" : [ "Hela", "Thanos"]
+      },
+      
+      {
+        "name" : "Manhattan",
+        "description" : "Can you save Manhattan?",
+          "items" : [
+              {
+                "name" : "Sceptre",
+                "damage" : "47.10"
+              },
+              {
+                "name" : "Hulk",
+                "damage" : "54.13"
+              }
+            ],
+            
+          "directions" : [
+            {
+              "directionName" : "West",
+              "room" : "Stark Expo"
+            }
+            ],
+            
+          "monstersInRoom" : [ "Ultron" ]
+      },
+      {
+        "name" : "SHIELD Hellicarrier",
+        "description" : "Save the Hellicarrier from the invasion....",
+          "items" : [
+              {
+                "name" : "Sword",
+                "damage" : "62.90"
+              },
+              {
+                "name" : "Lightning",
+                "damage" : "60.93"
+              }
+            ],
+            
+          "directions" : [
+            {
+              "directionName" : "North",
+              "room" : "Wakanda"
+            }
+            ],
+            
+          "monstersInRoom" : [ "Hawkeye", "Terrorists"]
+      },
+      {
+        "name" : "Wakanda",
+        "description" : "You've reached the secret continent of Wakanda",
+        "items" : [
+          {
+            "name" : "BlackPantherSuit",
+            "damage" : "100.0"
+          }
+          ],
+          "monstersInRoom" : ["Killmonger"]
+      }
+],
+
+"monsters" : [
+          {
+            "name"  : "Terrorists",
+            "attack" : "4",
+            "defense" : "4",
+            "health" : "100"
+          },
+          {
+            "name"  : "Chitauri",
+            "attack" : "5",
+            "defense" : "5",
+            "health" : "100"
+          },
+          {
+            "name"  : "Loki",
+            "attack" : "18",
+            "defense" : "7",
+            "health" : "100"
+          },
+          {
+            "name"  : "Robots",
+            "attack" : "10",
+            "defense" : "8",
+            "health" : "100"
+          },
+          {
+            "name"  : "Whiplash",
+            "attack" : "31",
+            "defense" : "19",
+            "health" : "100"
+          },
+          {
+            "name"  : "Hela",
+            "attack" : "54",
+            "defense" : "34",
+            "health" : "100"
+          },
+          {
+            "name"  : "Thanos",
+            "attack" : "65",
+            "defense" : "40",
+            "health" : "100"
+          },
+          {
+            "name"  : "Ultron",
+            "attack" : "47",
+            "defense" : "32",
+            "health" : "100"
+          },
+          {
+            "name"  : "Hawkeye",
+            "attack" : "75",
+            "defense" : "51",
+            "health" : "100"
+          },
+          {
+            "name"  : "Terrorists",
+            "attack" : "77",
+            "defense" : "43",
+            "health" : "100"
+          },
+          {
+            "name"  : "Killmonger",
+            "attack" : "87",
+            "defense" : "70",
+            "health" : "100"
+          }
+  ],
+"player" : {
+      "level" : "1",
+      "attack" : "15",
+      "defense" : "15",
+      "health" : "100"
+}
+}

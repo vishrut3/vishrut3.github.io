@@ -1,0 +1,116 @@
+{
+  "startingRoom": "AllenHallFrontDesk ",
+  "endingRoom": "PlayingFields ",
+  "rooms": [
+    {
+      "name": "AllenHallFrontDesk ",
+      "description": " You are in Allen Hall, in front of the Front Desk.",
+      "items": ["package"],
+      "directions": [
+        {
+          "directionName": "Right",
+          "room": "GregoryDrive"
+        }
+      ]
+    },
+    {
+      "name": "GregoryDrive",
+      "description": "You are at 1005 West Gregory Drive, outside Allen Hall",
+	  "items": ["snow", "I-Card"],
+      "directions": [
+        {
+          "directionName": "Left",
+          "room": "AllenHallFrontDesk "
+        },
+        {
+          "directionName": "Forward-Right",
+          "room": "IlliniGrove"
+        },
+        {
+          "directionName": "Forward",
+          "room": "TennisCourt"
+        },
+        {
+          "directionName": "Right",
+          "room": "PlantSciencesLaboratory"
+        }
+      ]
+    },
+    {
+      "name": "IlliniGrove",
+      "description": "You are at Illini Grove. There is nothing to do here.",
+      "items": ["leaves", "dead body"],
+      "directions": [
+        {
+          "directionName": "Backward",
+          "room": "GregoryDrive"
+        }
+      ]
+    },
+    {
+      "name": "TennisCourt",
+      "description": "You are at the University of Illinois Tennis Courts. There are people playing tennis here.",
+      "directions": [
+        {
+          "directionName": "Backward",
+          "room": "GregoryDrive"
+        }, 
+        {
+          "directionName": "Forward-Right",
+          "room": "ATO"
+        }
+      ]
+    },
+    {
+      "name": "ATO",
+      "description": "You are outside Alpha Tau Omega. You can see people partying here.",
+      "items": ["solo cup", "empty bottle"],
+      "directions": [
+        {
+          "directionName": "Left",
+          "room": "TennisCourt"
+        }
+      ]
+    },
+    {
+      "name": "PlantSciencesLaboratory",
+      "description": "You are outside the Plant Sciences Laboratory. There are a lot of plants.",
+      "items": ["plants"],
+      "directions": [
+        {
+          "directionName": "Left",
+          "room": "GregoryDrive"
+        },
+        {
+          "directionName": "Backward",
+          "room": "PlayingFields "
+        },
+        {
+          "directionName": "Down",
+          "room": "PlantSciencesBasement"
+        }
+      ]
+    },
+    {
+      "name": "PlayingFields ",
+      "description": "You are at the Dorner Drive Playing Fields. There is a pond here. You can go for a swim, but the water is frozen.",
+      "directions": [
+        {
+          "directionName": "Forward",
+          "room": "PlantSciencesLaboratory"
+        }
+      ]
+    },
+    {
+      "name": "PlantSciencesBasement",
+      "description": "You are in the basement of the Plant Sciences Laboratory. There are more plants here.",
+      "items": ["plants"],
+      "directions": [
+        {
+          "directionName": "Up",
+          "room": "PlantSciencesLaboratory"
+        }
+      ]
+    }
+  ]
+}
