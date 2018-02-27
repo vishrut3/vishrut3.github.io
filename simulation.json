@@ -1,59 +1,59 @@
 {
 	"foods": [{
 			"foodName": "Milk",
-			"cost": "4.0",
+			"cost": "4.0"
 		},
 		{
 			"foodName": "Butter",
-			"cost": "3.5",
+			"cost": "3.5"
 		},
 		{
 			"foodName": "Bread",
-			"cost": "2.0",
+			"cost": "2.0"
 		},
 		{
 			"foodName": "Chocolate Slab",
-			"cost": "5.75",
+			"cost": "5.75"
 		},
 		{
 			"foodName": "Tofu",
-			"cost": "4.0",
+			"cost": "4.0"
 		},
 		{
 			"foodName": "Spinach",
-			"cost": "2.0",
+			"cost": "2.0"
 		},
 		{
 			"foodName": "Peanut Butter",
-			"cost": "4.5",
+			"cost": "4.5"
 		},
 		{
 			"foodName": "Cheese",
-			"cost": "6.0",
+			"cost": "6.0"
 		},
 		{
 			"foodName": "Marinara",
-			"cost": "5.0",
+			"cost": "5.0"
 		},
 		{
 			"foodName": "Pesto",
-			"cost": "7.0",
+			"cost": "7.0"
 		},
 		{
 			"foodName": "Rice Noodles",
-			"cost": "3.0",
+			"cost": "3.0"
 		},
 		{
 			"foodName": "Bow-Tie Pasta",
-			"cost": "5.0",
+			"cost": "5.0"
 		},
 		{
 			"foodName": "Cookies",
-			"cost": "5.0",
+			"cost": "5.0"
 		},
 		{
 			"foodName": "Garlic",
-			"cost": "3.0",
+			"cost": "3.0"
 		}
 	],
 	"equipments": [{
