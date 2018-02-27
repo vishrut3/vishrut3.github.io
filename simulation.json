@@ -1,0 +1,159 @@
+{
+	"foods": [{
+			"foodName": "Milk",
+			"cost": "4.0",
+		},
+		{
+			"foodName": "Butter",
+			"cost": "3.5",
+		},
+		{
+			"foodName": "Bread",
+			"cost": "2.0",
+		},
+		{
+			"foodName": "Chocolate Slab",
+			"cost": "5.75",
+		},
+		{
+			"foodName": "Tofu",
+			"cost": "4.0",
+		},
+		{
+			"foodName": "Spinach",
+			"cost": "2.0",
+		},
+		{
+			"foodName": "Peanut Butter",
+			"cost": "4.5",
+		},
+		{
+			"foodName": "Cheese",
+			"cost": "6.0",
+		},
+		{
+			"foodName": "Marinara",
+			"cost": "5.0",
+		},
+		{
+			"foodName": "Pesto",
+			"cost": "7.0",
+		},
+		{
+			"foodName": "Rice Noodles",
+			"cost": "3.0",
+		},
+		{
+			"foodName": "Bow-Tie Pasta",
+			"cost": "5.0",
+		},
+		{
+			"foodName": "Cookies",
+			"cost": "5.0",
+		},
+		{
+			"foodName": "Garlic",
+			"cost": "3.0",
+		}
+	],
+	"equipments": [{
+			"equipmentName": "Oven",
+			"cost": "40.0",
+			"upkeep": "1"
+		},
+		{
+			"equipmentName": "Exhaust",
+			"cost": "60.0",
+			"upkeep": "1.5"
+		},
+		{
+			"equipmentName": "Grill",
+			"cost": "85.0",
+			"upkeep": "2"
+		},
+		{
+			"equipmentName": "Ice Maker",
+			"cost": "100.0",
+			"upkeep": "2"
+		},
+		{
+			"equipmentName": "Blender",
+			"cost": "30.0",
+			"upkeep": "0.5"
+		}
+	],
+	"recipes": [{
+			"dishName": "Goat Cheese Pesto Sandwich",
+			"ingredientsRequired": [
+				"Cheese",
+				"Pesto",
+				"Bread"
+			],
+			"equipmentsRequired": [
+				"Grill",
+				"Oven"
+			],
+			"cookingTime": "10",
+			"cost": "50.0"
+		},
+		{
+			"dishName": "Spinach Cheese Pizza",
+			"ingredientsRequired": [
+				"Cheese",
+				"Spinach",
+				"Marinara",
+				"Bread"
+			],
+			"equipmentsRequired": [
+				"Oven",
+				"Grill"
+			],
+			"cookingTime": "18",
+			"cost": "70.0"
+		},
+		{
+			"dishName": "Marinara Garlic Noodles",
+			"ingredientsRequired": [
+				"Marinara",
+				"Garlic",
+				"Rice Noodles",
+				"Cheese"
+			],
+			"equipmentsRequired": [
+				"Grill",
+				"Oven",
+				"Exhaust"
+			],
+			"cookingTime": "17",
+			"cost": "65.0"
+		},
+		{
+			"dishName": "Chocolate Peanut Butter Smoothie",
+			"ingredientsRequired": [
+				"Milk",
+				"Peanut Butter",
+				"Chocolate Slab"
+			],
+			"equipmentsRequired": [
+				"Ice Maker",
+				"Blender"
+			],
+			"cookingTime": "7",
+			"cost": "80.0"
+		},
+		{
+			"dishName": "Cookie Smoothie",
+			"ingredientsRequired": [
+				"Cookies",
+				"Peanut Butter",
+				"Milk"
+			],
+			"equipmentsRequired": [
+				"Ice Maker",
+				"Blender"
+			],
+			"cookingTime": "7",
+			"cost": "90.0"
+		}
+	]
+}
