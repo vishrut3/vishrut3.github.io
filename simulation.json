@@ -83,7 +83,7 @@
 		}
 	],
 	"recipes": [{
-			"dishName": "Goat Cheese Pesto Sandwich",
+			"dishName": "sandwich",
 			"ingredientsRequired": [
 				"Cheese",
 				"Pesto",
@@ -97,7 +97,7 @@
 			"cost": "50.0"
 		},
 		{
-			"dishName": "Spinach Cheese Pizza",
+			"dishName": "pizza",
 			"ingredientsRequired": [
 				"Cheese",
 				"Spinach",
